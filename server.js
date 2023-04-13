@@ -3,7 +3,7 @@ require('./db/mongoose');
 const Task = require('./models/task');
 
 const app = express()
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 app.use(express.json());
 
 app.post('/tasks', (req, res) => {
