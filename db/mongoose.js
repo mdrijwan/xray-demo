@@ -1,3 +1,3 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://admin:admin@cluster0.p3hxgep.mongodb.net/taskManagerDB?retryWrites=true&w=majority', { useNewUrlParser: true })
+mongoose.connect('mongodb+srv://admin:admin@test.wv21t05.mongodb.net?retryWrites=true&w=majority', { useNewUrlParser: true })
